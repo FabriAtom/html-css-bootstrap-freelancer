@@ -1,0 +1,36 @@
+
+
+
+.sidebar{
+    height: 100px;
+    background-color: rgb(44, 62, 80);
+}
+
+
+.first-section{
+    height: 500px;
+    background-color: rgb(26, 188, 156);
+}
+
+.second-section{
+    height: 600px;
+}
+
+.third-section{
+    height: 500px;
+    background-color: rgb(26, 188, 156);
+}
+
+.contact-me{
+
+}
+
+.foot{
+    height: 150px;
+    background-color: rgb(58, 84, 109);
+}
+
+.foot-bottom{
+    height: 50px;
+    background-color: rgb(44, 62, 80);
+}
