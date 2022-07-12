@@ -1,5 +1,5 @@
 
-.navbar .container{
+.navbar{
     background-color: rgb(44, 62, 80);
 }
 
@@ -21,7 +21,7 @@
     background-color: rgb(58, 84, 109);
 }
 
-.footer-bottom{
+.footer_bottom{
     height: 50px;
     background-color: rgb(44, 62, 80);
 }
