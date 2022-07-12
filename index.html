@@ -10,30 +10,103 @@
 </head>
 
 <body>
-    <aside>
-        <div class="sidebar">
-            <div class="start"></div>
-            <div class="portfolio"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Start Bootstrap</a>
+          <div class="navbar" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </aside>
+    </nav>
+   
 
     <section class="first">
         <div class="first-section">
+            <img src="/img/avatar.svg" class="center" width="200px" alt="">
+            <div class="text-light">
+                <h1>START BOOTSTRAP</h1>
+                <div>
+                    <hr> &star; <hr>
+                </div>
+
+            <p>graphic artist - web designer - illustrator</p>
+            </div>
         </div>
     </section>
 
-    <section class="second">
-        <div class="second-section">
-        </div>
-    </section>
+    <section class="portfolio"> 
+            <h1 class="text-center py-4">Portfolio</h1>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
-    <section class="third">
+                    <div class="col" class="" style="width: 18rem;">
+                        <img src="/img/cabin.png" class="card-img-top" alt="">
+                    </div>
+                     <div class="col" style="width: 18rem;">
+                       <img src="/img/cake.png" class="card-img-top" alt="">
+                    </div>
+                    <div class="col" style="width: 18rem;">
+                        <img src="/img/circus.png" class="card-img-top" alt="">
+                    </div>
+                    <div class="col" style="width: 18rem;">
+                        <img src="/img/game.png" class="card-img-top" alt="">
+                   </div>
+                   <div class="col" style="width: 18rem;">
+                      <img src="/img/safe.png" class="card-img-top" alt="">
+                   </div>
+                   <div class="col" style="width: 18rem;">
+                        <img src="/img/submarine.png" class="card-img-top" alt="">
+                   </div>
+                </div>
+           </div>
+   </section>
+
+    <section class="about bsf_bg_accent text-light">
         <div class="third-section">
+            <h2 class="text-center py-4">ABOUT</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima numquam impedit, ratione ex id dignissimos pariatur cumque dolore deleniti dolorum asperiores debitis, nam molestias ipsa? Perferendis voluptate maiores eaque expedita?
+                    </div>
+                    <div class="col py-4">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi dolorem officia quaerat perspiciatis dolore animi, eius, esse similique voluptate dicta impedit. Doloremque alias vitae veritatis ipsam vel beatae modi facilis.
+                    </div>
+                </div>
+            </div>
+            <button class="">
+                download
+            </button>
         </div>
     </section>
 
-    <section class="contact-me">
-        <div class="title">
+    <section class="contacts py-5">
+        <h2 class="text-center py-4">Contact Me</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Name 
+                    <hr>
+                    Email Address 
+                    <br>
+                    Phone number
+                    <hr>
+                    Message
+                </div>
+                <div>
+                    <button class="">Send</button>
+                </div>
+            </div>
+
         </div>
         <div class="list">
         </div>
@@ -41,12 +114,31 @@
         </div>
     </section>
 
-    <div class="foot">
-        <div class="location"></div>
-        <div class="icon"></div>
-        <div class="freellancer"></div>
-    </div>
-    <footer class="foot-bottom">
+
+    <footer id="site_footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col py-4 text-light text-center">
+                        Location <br>
+                        2215 john daniel drive clark MO <br>
+                        5423
+                    </div>
+                    <div class="col py-4 text-light text-center">
+                        Around the web
+
+                    </div>
+                    <div class="col py-4 text-light text-center">
+                        About Freelancer <br>
+                        freelancer is a free to use, open source
+
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="footer_bottom py-4 bsf_bg_darker">
+            lorem
+        </div>
     </footer>
     
 
